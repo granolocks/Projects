@@ -36,3 +36,57 @@ end
 
 require 'json'
 puts JSON.pretty_generate inverted_index_for(files)
+
+# {
+#   "the": [
+#     "filename_0",
+#     "filename_4",
+#     "filename_6"
+#   ],
+#   "wheels": [
+#     "filename_0",
+#     "filename_4"
+#   ],
+#   "on": [
+#     "filename_0",
+#     "filename_4"
+#   ],
+#   "bus": [
+#     "filename_0",
+#     "filename_4"
+#   ],
+#   "go": [
+#     "filename_0",
+#     "filename_4"
+#   ],
+#   "round": [
+#     "filename_1",
+#     "filename_2",
+#     "filename_3",
+#     "filename_5"
+#   ],
+#   "and": [
+#     "filename_1",
+#     "filename_2",
+#     "filename_3",
+#     "filename_5"
+#   ],
+#   "all": [
+#     "filename_6"
+#   ],
+#   "through": [
+#     "filename_6"
+#   ],
+#   "town": [
+#     "filename_6"
+#   ],
+#   "granolocks": [
+#     "filename_7"
+#   ],
+#   "is": [
+#     "filename_7"
+#   ],
+#   "awesome": [
+#     "filename_7"
+#   ]
+# }
